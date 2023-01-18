@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(224, 218, 218);
+}
+
+h1 {
+    padding-left: 120px;
+   
+}
+
+hr {
+    width: 50px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.inStock {
+padding: 10px;
+margin: 10px 120px;
+background-color: white;
+color: black;
+display: flex;
+justify-content: space-between;
+}
+
+button {
+    margin-left: 120px;
+}
+
+.darkMode {
+    background-color: rgb(52, 49, 49);
+    color: white;
+}
+.darkMode .inStock {
+    color: white;
+    background-color: rgb(101, 94, 94);
+}
